@@ -30,6 +30,15 @@ A simplified git tutorial
 - `$ git rm --cached <file>` or `$ git reset HEAD <file>` : Remove the file(s) from index (unstage the file(s))
 - `$ git status` : Check status of working tree
 - `$ git commit` : Commit changes in index
+  - `$ git commit -m "<your_commit_message>"` : Commit changes in index with a message
 - `$ git push` : Push changes to remote repository
 - `$ git pull` : Pull latest from remote repository
 - `$ git clone` : Clone remote repository into a new local directory
+
+## Others
+
+- `$ touch .gitignore` : Create a file called .gitignore
+  > Used to list files are not meant to be commited. Please refer [here](https://github.com/sahil505/understanding_git/blob/master/.gitignore)
+  - `log.txt` : This written inside .gitignore file will ignore the file log.txt from getting staged or commited
+  - `*.txt` : This will ignore all .txt files from getting staged or commited
+  - `/dir` : This will ignore the complete dir directory from getting staged or commited

@@ -1,0 +1,8 @@
+# Ignore the file log.txt from getting staged or commited
+log.txt
+
+# Ignore all .txt files from getting staged or commited
+*.txt
+
+# Ignore the complete dir directory from getting staged or commited
+/dir
