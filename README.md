@@ -31,14 +31,21 @@ A simplified git tutorial
 - `$ git status` : Check status of working tree
 - `$ git commit` : Commit changes in index
   - `$ git commit -m "<your_commit_message>"` : Commit changes in index with a message
+- `$ git remote add origin <HTTPS_URL_of_the_remote_repository>` : Adds the your local repository origin to the remote repository.
+  - Go the github dashboard in your browser > Create a new repository > Copy the HTTPS URL and use it above
+- `git push -u origin master` : Pushes your local repository (master branch) to the remote repository
 - `$ git push` : Push changes to remote repository
-- `$ git pull` : Pull latest from remote repository
-- `$ git clone` : Clone remote repository into a new local directory
+  - `$ git push origin <branch_name>` : Push changes made in the branch to the remote repository branch
+- `$ git pull origin <branch_name>` : Pull latest from the branch of remote repository
+  - `$ git pull` : Pull by default from origin master
+- `$ git clone <HTTPS_URL>` : Clone remote repository into a new local directory
+- `$ git branch` : List all the branches and check which branch you are currently on.
+- `$ git checkout -b <branch_name>` : Create a new branch
+- `$ git checkout <branch_name>` : Switch to an already existing branch
 
 ## Others
 
-- `$ touch .gitignore` : Create a file called .gitignore
-  > Used to list files are not meant to be commited. Please refer [here](https://github.com/sahil505/understanding_git/blob/master/.gitignore)
+- `$ touch .gitignore` : Create a file called .gitignore (Used to list files are not meant to be commited. Please refer [here](https://github.com/sahil505/understanding_git/blob/master/.gitignore))
   - `log.txt` : This written inside .gitignore file will ignore the file log.txt from getting staged or commited
   - `*.txt` : This will ignore all .txt files from getting staged or commited
   - `/dir` : This will ignore the complete dir directory from getting staged or commited
