@@ -25,6 +25,9 @@ A simplified git tutorial
 - `$ git --version` : Check the git version
 - `$ git init` : Initialize a local git repository
 - `$ git add <file>` : Add file(s) to index (stage the file(s))
+  - `$ git add *.html` : Add all .html files to index (stage all .html files)
+  - `$ git add .` : Add all changed files to index (stage all changed files)
+- `$ git rm --cached <file>` or `$ git reset HEAD <file>` : Remove the file(s) from index (unstage the file(s))
 - `$ git status` : Check status of working tree
 - `$ git commit` : Commit changes in index
 - `$ git push` : Push changes to remote repository
