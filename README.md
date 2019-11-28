@@ -22,4 +22,11 @@ A simplified git tutorial
 
 ## Basic Commands
 
--
+- `$ git --version` : Check the git version
+- `$ git init` : Initialize a local git repository
+- `$ git add <file>` : Add file(s) to index (stage the file(s))
+- `$ git status` : Check status of working tree
+- `$ git commit` : Commit changes in index
+- `$ git push` : Push changes to remote repository
+- `$ git pull` : Pull latest from remote repository
+- `$ git clone` : Clone remote repository into a new local directory
