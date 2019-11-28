@@ -1,4 +1,4 @@
-# understanding_git
+# Understanding Git
 
 A simplified git tutorial
 
@@ -49,3 +49,4 @@ A simplified git tutorial
   - `log.txt` : This written inside .gitignore file will ignore the file log.txt from getting staged or commited
   - `*.txt` : This will ignore all .txt files from getting staged or commited
   - `/dir` : This will ignore the complete dir directory from getting staged or commited
+- `$ echo "My github username is sahil505" >> README.md` : Creates a file called 'README.md' with text 'My github username is sahil505'
