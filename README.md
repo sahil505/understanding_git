@@ -50,3 +50,7 @@ A simplified git tutorial
   - `*.txt` : This will ignore all .txt files from getting staged or commited
   - `/dir` : This will ignore the complete dir directory from getting staged or commited
 - `$ echo "My github username is sahil505" >> README.md` : Creates a file called 'README.md' with text 'My github username is sahil505'
+
+## Contribute
+
+- Please feel free to contribute to this in any manner. Just create a PR ;)
