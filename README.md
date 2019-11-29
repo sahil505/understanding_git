@@ -27,11 +27,11 @@ A simplified git tutorial
 - `$ git add <file>` : Add file(s) to index (stage the file(s))
   - `$ git add *.html` : Add all .html files to index (stage all .html files)
   - `$ git add .` : Add all changed files to index (stage all changed files)
-- `$ git rm --cached <file>` or `$ git reset HEAD <file>` : Remove the file(s) from index (unstage the file(s))
+- `$ git rm --cached <file>` or `$ git reset HEAD <file>` : Remove file(s) from index (unstage file(s))
 - `$ git status` : Check status of working tree
 - `$ git commit` : Commit changes in index
   - `$ git commit -m "<your_commit_message>"` : Commit changes in index with a message
-- `$ git remote add origin <HTTPS_URL_of_the_remote_repository>` : Adds the your local repository origin to the remote repository.
+- `$ git remote add origin <HTTPS_URL_of_the_remote_repository>` : Adds your local repository origin to the remote repository.
   - Go the github dashboard in your browser > Create a new repository > Copy the HTTPS URL and use it above
 - `git push -u origin master` : Pushes your local repository (master branch) to the remote repository
 - `$ git push` : Push changes to remote repository
@@ -39,7 +39,7 @@ A simplified git tutorial
 - `$ git pull origin <branch_name>` : Pull latest from the branch of remote repository
   - `$ git pull` : Pull by default from origin master
 - `$ git clone <HTTPS_URL>` : Clone remote repository into a new local directory
-- `$ git branch` : List all the branches and check which branch you are currently on.
+- `$ git branch` : List all branches and check which branch you are currently on.
 - `$ git checkout -b <branch_name>` : Create a new branch
 - `$ git checkout <branch_name>` : Switch to an already existing branch
 
