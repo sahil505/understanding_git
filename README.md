@@ -45,7 +45,7 @@ A simplified git tutorial
 
 ## Others
 
-- `$ touch .gitignore` : Create a file called .gitignore (Used to list files are not meant to be commited. Please refer [here](https://github.com/sahil505/understanding_git/blob/master/.gitignore))
+- `$ touch .gitignore` : Create a file called .gitignore (Used to list files are not meant to be commited. Refer [here](https://github.com/sahil505/understanding_git/blob/master/.gitignore))
   - `log.txt` : This written inside .gitignore file will ignore the file log.txt from getting staged or commited
   - `*.txt` : This will ignore all .txt files from getting staged or commited
   - `/dir` : This will ignore the complete dir directory from getting staged or commited
