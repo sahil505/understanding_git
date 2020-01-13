@@ -7,7 +7,7 @@ A simplified git tutorial
 > A Version Control System (VSC) for tracking changes in computer files.
 
 - Distributed version control system (Decentralized: Users need not be on the same network to access or make changes)
-- Coordinatess work between multiple developers
+- Coordinates work between multiple developers
 - Who made what changes and when
 - Revert back at any point of time to any point of time
 - Local and remote [repositories](https://www.google.com/search?q=repository+meaning&oq=repository+&aqs=chrome.2.69i57j0l2j69i60j69i61l2.3466j0j1&sourceid=chrome&ie=UTF-8)
@@ -17,8 +17,8 @@ A simplified git tutorial
 - Keeps track of your code history
 - Takes snapshots of your files in the repository
 - You decide when to take a snapshot by making a "commit"
-- You can visit any sanpshot at any time
-- You can stage files before commiting them (commands for all these are explained in detail below)
+- You can visit any snapshot at any time
+- You can stage files before committing them (commands for all these are explained in detail below)
 
 ## Basic Commands
 
@@ -45,9 +45,9 @@ A simplified git tutorial
 
 ## Others
 
-- `$ touch .gitignore` : Create a file called .gitignore (Used to list files are not meant to be commited. Refer [here](https://github.com/sahil505/understanding_git/blob/master/.gitignore))
-  - `log.txt` : This written inside .gitignore file will ignore the file log.txt from getting staged or commited
-  - `*.txt` : This will ignore all .txt files from getting staged or commited
+- `$ touch .gitignore` : Create a file called .gitignore (Used to list files are not meant to be committed. Refer [here](https://github.com/sahil505/understanding_git/blob/master/.gitignore))
+  - `log.txt` : This written inside .gitignore file will ignore the file log.txt from getting staged or committed
+  - `*.txt` : This will ignore all .txt files from getting staged or committed
   - `/dir` : This will ignore the complete dir directory from getting staged or commited
 - `$ echo "My github username is sahil505" >> README.md` : Creates a file called 'README.md' with text 'My github username is sahil505'
 
