@@ -51,6 +51,12 @@ A simplified git tutorial
   - `/dir` : This will ignore the complete dir directory from getting staged or commited
 - `$ echo "My github username is sahil505" >> README.md` : Creates a file called 'README.md' with text 'My github username is sahil505'
 
+## Work-In-Progress
+
+- How to squash your commits
+- How to handle merge conflicts
+- How to rebase
+
 ## Contribute
 
 - Please feel free to contribute to this in any manner. Just create a PR ;)
